@@ -1,0 +1,10 @@
+#Subheader {
+    margin-bottom: 10px;
+    margin-top: -15px;
+    width: 100%;
+    color: #9ED9C1;
+    padding-top: 5px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}

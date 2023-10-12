@@ -1,0 +1,72 @@
+
+.timer-container {
+    display: flex;
+    justify-content: center;
+    
+}
+  
+.timer-box {
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.timer-digit {
+  margin: 0;
+}
+
+.Loading {
+  display: flex;
+  justify-content: center;
+}
+
+.LossContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.buttonDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.lossButton{
+  border-radius: 2px;
+  border-color: white;
+  margin: 10px;
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  
+}
+
+.correctContainer {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.correctDiv {
+  margin-bottom: 10px;
+}

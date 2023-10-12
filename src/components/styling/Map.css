@@ -1,0 +1,34 @@
+#miniMap {
+  transition: all 0.2s ease-in-out;
+}
+#miniMap:hover {
+  transform: scale(1.05);
+}
+
+.wrapper {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mapContainer {
+  height: 100%;
+  width: 40%;
+  border: "1px solid #ccc";
+}
+
+#markerButton {
+  margin-top: 15px;
+}
+
+.mapHeader {
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+.resultText {
+  font-size: 1.5em;
+}

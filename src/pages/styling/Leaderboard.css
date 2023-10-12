@@ -1,0 +1,43 @@
+.ValuesHeader{
+    width: 100%;
+    display: table;
+    table-layout: fixed; /*Optional*/
+    border-spacing: 5px; /*Optional*/
+    background-color:  #dddbcb; /*Optional*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.Column {
+    display: table-cell;
+    color:black;    
+    width: 20%;
+    font-size: 16px;
+    text-align: left;
+}
+
+.UsernameColumn{
+    display: table-cell;
+    color:black;
+    width: 40%;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.LeaderboardBoxContainer {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.scrollDiv {
+    max-height: 500px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 0; /* Width of the vertical scrollbar */
+  }

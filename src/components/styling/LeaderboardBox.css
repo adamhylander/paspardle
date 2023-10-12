@@ -1,0 +1,26 @@
+.LeaderBox {
+    width: 100%;
+    display: table;
+    border-spacing: 5px; /*Optional*/
+    background-color:  #36454f; /*Optional*/
+  }
+    
+  .UserColumn {
+    display: table-cell;
+    color:white;
+    width: 20%;
+    font-size: 16px;
+    text-align: left;
+  
+  }
+  
+  .UserNameColumn {
+    display: table-cell;
+    color:white;
+    width: 40%;
+    font-size: 16px;
+    text-align: left;
+  
+  }
+  
+  

@@ -1,0 +1,19 @@
+.ExplanationDiv {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 500px;
+    color: white;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    margin: 0 auto 2em auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .Box:hover {
+    background-color: #555;
+  }

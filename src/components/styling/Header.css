@@ -1,0 +1,38 @@
+header {
+  width: 100%;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 2em;
+  color: #9ED9C1;
+  text-align: center;
+  margin: auto;
+}
+
+.buttons {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.buttons > * + * {
+  margin-left: 10px; /* Adjust this value as needed */
+}
+
+@media (max-width: 740px) {
+  .buttons {
+    position: relative;
+    top: unset;
+    right: unset;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust this value as needed */
+  }
+}
